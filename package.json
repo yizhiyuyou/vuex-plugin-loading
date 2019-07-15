@@ -1,8 +1,8 @@
 {
-  "name": "vuex-loading",
+  "name": "vuex-plugin-loading",
   "version": "0.0.1",
-  "description": "Automatically set according to vuex action.",
-  "main": "index.js",
+  "description": "Auto loading state binding plugin for vuex.",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
