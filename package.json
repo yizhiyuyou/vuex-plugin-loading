@@ -13,7 +13,8 @@
   "keywords": [
     "vuex",
     "vuex-loading",
-    "loading"
+    "loading",
+    "vuex-plugin-loading"
   ],
   "author": "duanyu",
   "license": "MIT",

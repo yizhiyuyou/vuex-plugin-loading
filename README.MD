@@ -1,19 +1,21 @@
-# vuex-loading
+# vuex-plugin-loading
 
-Automatically set loading state via vuex action. You don't need to manually modify the loading status every time you request it.
+通过 vuex action 自动设置 loading state. 免去每次请求时都需要手动修改 loading state 的麻烦. 灵感来源于 dva-loading.
+
+[**English Document**](./README_EN.md)
 
 ---
 
-## Install
+## 安装
 
 ```bash
-$ npm install vuex-loading or yarn add vuex-loading
+$ npm install vuex-plugin-loading or yarn add vuex-plugin-loading
 ```
 
-## Usage
+## 使用
 
 ```javascript
-import createVuexLoadingPlugin from "vuex-loading";
+import createVuexLoadingPlugin from "vuex-plugin-loading";
 
 new Vuex.Store({
   ...
@@ -21,14 +23,14 @@ new Vuex.Store({
 });
 ```
 
-Then we can access loading state from store.
+随后你就可以通过 store 使用对应的 loading state
 
-### opts
+### 配置参数
 
-- `opts.namespace`: This attribute represents the namespace of the loading module. type String. Default `loadingStore`
-- `opts.rootNamespace`: This attribute represents the namespace of the module. type String. Default `rootStore`
+- `opts.namespace`: 该属性表示 loading 模块的命名空间. 类型为 String. 默认值为 `loadingStore`
+- `opts.rootNamespace`: 该属性表示跟模块的命名空间. 类型为 String. 默认值为 `rootStore`
 
-## State Structure
+## 状态结构
 
 ```
 loadingStore: {
