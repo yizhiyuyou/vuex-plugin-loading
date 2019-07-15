@@ -1,0 +1,30 @@
+{
+  "name": "vuex-loading",
+  "version": "0.0.1",
+  "description": "Automatically set according to vuex action.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yizhiyuyou/vuex-loading.git"
+  },
+  "keywords": [
+    "vuex",
+    "vuex-loading",
+    "loading"
+  ],
+  "author": "duanyu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yizhiyuyou/vuex-loading/issues"
+  },
+  "homepage": "https://github.com/yizhiyuyou/vuex-loading#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.5.4"
+  },
+  "peerDependencies": {
+    "vuex": "^3.1.0"
+  }
+}
