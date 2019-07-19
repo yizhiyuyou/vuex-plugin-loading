@@ -1,13 +1,15 @@
 {
   "name": "vuex-plugin-loading",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Auto loading state binding plugin for vuex.",
   "main": "./lib/vuex-plugin-loading.cjs.js",
   "module": "./lib/vuex-plugin-loading.esm.js",
   "browser": "./lib/vuex-plugin-loading.umd.js",
+  "sideEffects": false,
   "scripts": {
     "start": "rollup -c -w",
     "build": "rollup -c",
+    "prepublish": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

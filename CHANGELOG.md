@@ -9,3 +9,9 @@
 ### Perfect
 
 - **ES5:** Use babel to transcode to `ES5`.
+
+# 0.0.3 (2019-07-19)
+
+### Perfect
+
+- **README:** Update README.md.

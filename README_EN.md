@@ -131,7 +131,6 @@ export const testStore = {
   state,
   actions,
   mutations,
-  getters,
 }
 ```
 
@@ -231,7 +230,6 @@ export const testStore = {
   state,
   actions,
   mutations,
-  getters,
 }
 ```
 
@@ -331,7 +329,6 @@ export const testStore = {
   state,
   actions,
   mutations,
-  getters,
 }
 ```
 
